@@ -9,6 +9,9 @@ html
   body
   	= render 'admin/shared/main_menu'
   	.container
+      .row
+        .col-md-12
+          = render_flash
   		.row
   			.col-md-12
     			= yield

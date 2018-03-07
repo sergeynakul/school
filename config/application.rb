@@ -27,7 +27,7 @@ module School
     	g.decorator false
 
     	g.template_engine :slim
-    	g.fixture_replacement :factory_girl, dir: "spec/factories"
+    	g.fixture_replacement :factory_bot, dir: "spec/factories"
 
     	g.test_framework :rspec,
     		fixtures: true,
