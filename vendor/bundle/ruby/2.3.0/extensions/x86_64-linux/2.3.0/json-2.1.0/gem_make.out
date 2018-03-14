@@ -1,0 +1,13 @@
+current directory: /home/newHomeDir/rails/school/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+/usr/bin/ruby2.3 -r ./siteconf20180314-21170-ainu80.rb extconf.rb
+creating Makefile
+
+current directory: /home/newHomeDir/rails/school/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/newHomeDir/rails/school/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Цель «all» не требует выполнения команд.
+
+current directory: /home/newHomeDir/rails/school/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" install
