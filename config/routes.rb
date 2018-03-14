@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+  scope :admin do
+    devise_for :admins, controllers: { sessions: 'admin/admins/sessions' }
+  end
 
   namespace :admin do
   	root 'main#index'
-    get 'main/index'
     resources :teachers, except: :show
     resources :disciplines, except: :show
   end
